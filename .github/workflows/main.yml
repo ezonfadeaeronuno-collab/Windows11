@@ -5,7 +5,7 @@ on:
 
 jobs:
   default:
-    runs-on: runs-on=${{ github.run_id }}/image=windows11-full-x64/family=m7i
+    runs-on: runs-on=${{ github.run_id }}/image=windows11-25H2-x64
     steps:
       - name: Checkout
         uses: actions/checkout@v5
