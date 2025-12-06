@@ -1,0 +1,3 @@
+jobs:
+  build:
+    runs-on: runs-on=${{ github.run_id }}/image=windows11-25H2-x64
